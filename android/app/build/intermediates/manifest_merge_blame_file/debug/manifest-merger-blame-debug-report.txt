@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.streamsterstreamtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\dylan\Desktop\stream-sample\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\dylan\Desktop\stream-sample\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:5:5-71
+13-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:6:5-65
+14-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\dylan\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\dylan\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+16
+17    <uses-feature
+17-->[io.github.thibaultbee:streampack-extension-rtmp:2.4.0] C:\Users\dylan\.gradle\caches\transforms-3\e2abd67f2836745e42b9d1cf566ce4ca\transformed\jetified-streampack-extension-rtmp-2.4.0\AndroidManifest.xml:9:5-11:35
+18        android:glEsVersion="0x00020000"
+18-->[io.github.thibaultbee:streampack-extension-rtmp:2.4.0] C:\Users\dylan\.gradle\caches\transforms-3\e2abd67f2836745e42b9d1cf566ce4ca\transformed\jetified-streampack-extension-rtmp-2.4.0\AndroidManifest.xml:10:9-41
+19        android:required="true" />
+19-->[io.github.thibaultbee:streampack-extension-rtmp:2.4.0] C:\Users\dylan\.gradle\caches\transforms-3\e2abd67f2836745e42b9d1cf566ce4ca\transformed\jetified-streampack-extension-rtmp-2.4.0\AndroidManifest.xml:11:9-32
+20
+21    <queries>
+21-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:24:5-28:15
+22        <package android:name="androidx.test.orchestrator" />
+22-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:25:9-62
+22-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:25:18-59
+23        <package android:name="androidx.test.services" />
+23-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:26:9-58
+23-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:26:18-55
+24        <package android:name="com.google.android.apps.common.testing.services" />
+24-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:27:9-83
+24-->[androidx.test:runner:1.4.0] C:\Users\dylan\.gradle\caches\transforms-3\ec4c384250deb07ea95be5b1164d381b\transformed\runner-1.4.0\AndroidManifest.xml:27:18-80
+25    </queries>
+26
+27    <application
+27-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:8:5-28:19
+28        android:name="com.streamsterstreamtest.MainApplication"
+28-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:9:7-38
+29        android:allowBackup="false"
+29-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:13:7-34
+30        android:allowNativeHeapPointerTagging="false"
+30-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:14:7-52
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.8.0] C:\Users\dylan\.gradle\caches\transforms-3\6be23c5517985f19fcabc9b798caadc5\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:11:7-41
+34        android:label="@string/app_name"
+34-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:10:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:12:7-52
+36        android:theme="@style/AppTheme"
+36-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:15:7-38
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\dylan\Desktop\stream-sample\android\app\src\debug\AndroidManifest.xml:8:9-44
+38        <activity
+38-->C:\Users\dylan\Desktop\stream-sample\android\app\src\debug\AndroidManifest.xml:11:9-111
+39            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+39-->C:\Users\dylan\Desktop\stream-sample\android\app\src\debug\AndroidManifest.xml:11:19-83
+40            android:exported="false" />
+40-->C:\Users\dylan\Desktop\stream-sample\android\app\src\debug\AndroidManifest.xml:11:84-108
+41        <activity
+41-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:16:7-27:18
+42            android:name="com.streamsterstreamtest.MainActivity"
+42-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:17:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+43-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:19:9-118
+44            android:exported="true"
+44-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:22:9-32
+45            android:label="@string/app_name"
+45-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:18:9-41
+46            android:launchMode="singleTask"
+46-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:20:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:21:9-51
+48            <intent-filter>
+48-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:23:9-26:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:24:13-65
+49-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:24:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:25:13-73
+51-->C:\Users\dylan\Desktop\stream-sample\android\app\src\main\AndroidManifest.xml:25:23-70
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+57            android:authorities="com.streamsterstreamtest.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dylan\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dylan\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dylan\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dylan\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
